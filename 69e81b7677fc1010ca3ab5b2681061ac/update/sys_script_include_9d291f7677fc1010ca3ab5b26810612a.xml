@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1234_demo12344.Script1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Hi!</description>
+        <name>Script1</name>
+        <script><![CDATA[var Script1 = Class.create();
+Script1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'Script1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-19 18:48:52</sys_created_on>
+        <sys_id>9d291f7677fc1010ca3ab5b26810612a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Script1</sys_name>
+        <sys_package display_value="Demo12344" source="x_1234_demo12344">69e81b7677fc1010ca3ab5b2681061ac</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Demo12344">69e81b7677fc1010ca3ab5b2681061ac</sys_scope>
+        <sys_update_name>sys_script_include_9d291f7677fc1010ca3ab5b26810612a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-19 18:48:52</sys_updated_on>
+    </sys_script_include>
+</record_update>
